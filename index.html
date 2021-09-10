@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculatrice.js" defer></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exercice calculatrice</h1>
+    <p id="output">0</p>
+
+    <div id="ZoneBoutons">
+        <div class="first-row">
+            <button id="btn_r1-1" value="7" onclick="btnDisplay('7') ">7</button>
+            <button id="btn_r1-2" value="8" onclick="btnDisplay('8') ">8</button>
+            <button id="btn_r1-3" value="9" onclick="btnDisplay('9') ">9</button>
+            <button id="btn_r1-4" value="+" onclick="btnDisplay('+') ">+</button>
+        </div>
+        <div class="second-row">
+            <button id="btn_r2-1" value="4" onclick="btnDisplay('4') ">4</button>
+            <button id="btn_r2-2" value="5" onclick="btnDisplay('5') ">5</button>
+            <button id="btn_r2-3" value="6" onclick="btnDisplay('6') ">6</button>
+            <button id="btn_r2-4" value="-" onclick="btnDisplay('-') ">-</button>
+        </div>
+        <div class="third-row">
+            <button id="btn_r3-1" value="1" onclick="btnDisplay('1') ">1</button>
+            <button id="btn_r3-2" value="2" onclick="btnDisplay('2') ">2</button>
+            <button id="btn_r3-3" value="3" onclick="btnDisplay('3') ">3</button>
+            <button id="btn_r3-4" value="*" onclick="btnDisplay('*') ">*</button>
+        </div>
+        <div class="fourth-row">
+            <button id="btn_r4-1" value="0" onclick="btnDisplay('0') ">0</button>
+            <button id="btn_r4-2" value="." onclick="btnDisplay('.') ">.</button>
+            <button id="btn_r4-3" value="/" onclick="btnDisplay('/') ">/</button>
+        </div>
+    </div>
+
+    <div id="ZoneCalculer">
+        <div class="calc-row">
+            <button id="btn_r5-1" onclick="btnClear()">C</button>
+            <button id="btn_r5-2" value="=" onclick="btnSolved() ">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

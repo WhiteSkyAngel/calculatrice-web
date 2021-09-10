@@ -1,0 +1,22 @@
+
+button {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#btn_r4-1 {
+    width: 164px;
+}
+
+#btn_r5-1 {
+    width: 164px;
+}
+
+#btn_r5-2 {
+    width: 164px;
+}
